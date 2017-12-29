@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FirstSuite">
+	<test thread-count="5" name="day1">
+		<groups>
+			<run>
+				<include name="Smoke" />
+				<exclude name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.TakingScreenShotcode" />
+			<!-- <class name="testCases.practise" /> <class name="testCases.demo1" 
+				/> -->
+
+		</classes>
+	</test> <!-- day1 -->
+</suite> <!-- FirstSuite -->

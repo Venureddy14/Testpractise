@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestGroup">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="smoke"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TestGroupsClass1"/>
+    </classes>
+  </test> <!-- TestGroup -->
+</suite> <!-- Failed suite [Suite] -->

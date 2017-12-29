@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36" started-at="2017-12-28T12:26:15Z" finished-at="2017-12-28T12:26:15Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestGroupsClass1.method2()[pri:1, instance:testCases.TestGroupsClass1@4520ebad]" name="method2" class="testCases.TestGroupsClass1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestGroupsClass1.method1()[pri:2, instance:testCases.TestGroupsClass1@4520ebad]" name="method1" class="testCases.TestGroupsClass1"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestGroupsClass1.method3()[pri:0, instance:testCases.TestGroupsClass1@4520ebad]" name="method3" class="testCases.TestGroupsClass1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="TestGroup" duration-ms="36" started-at="2017-12-28T12:26:15Z" finished-at="2017-12-28T12:26:15Z">
+      <class name="testCases.TestGroupsClass1">
+        <test-method status="PASS" signature="method3()[pri:0, instance:testCases.TestGroupsClass1@4520ebad]" name="method3" duration-ms="13" started-at="2017-12-28T17:56:15Z" finished-at="2017-12-28T17:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method2()[pri:1, instance:testCases.TestGroupsClass1@4520ebad]" name="method2" duration-ms="1" started-at="2017-12-28T17:56:15Z" finished-at="2017-12-28T17:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:2, instance:testCases.TestGroupsClass1@4520ebad]" name="method1" duration-ms="1" started-at="2017-12-28T17:56:15Z" finished-at="2017-12-28T17:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- testCases.TestGroupsClass1 -->
+    </test> <!-- TestGroup -->
+  </suite> <!-- Suite -->
+</testng-results>

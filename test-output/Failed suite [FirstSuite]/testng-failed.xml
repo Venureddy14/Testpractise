@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [FirstSuite]]">
+  <test thread-count="5" name="day1">
+    <classes>
+      <class name="loginpage.practise"/>
+      <class name="loginpage.demo1"/>
+    </classes>
+  </test> <!-- day1 -->
+  <test name="day1(failed)">
+    <classes>
+      <class name="loginpage.practise">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- loginpage.practise -->
+      <class name="loginpage.demo1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- loginpage.demo1 -->
+    </classes>
+  </test> <!-- day1(failed) -->
+  <test name="day1(failed)">
+    <classes>
+      <class name="loginpage.demo1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- loginpage.demo1 -->
+      <class name="loginpage.practise">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- loginpage.practise -->
+    </classes>
+  </test> <!-- day1(failed) -->
+  <test name="day1(failed)(failed)">
+    <classes>
+      <class name="loginpage.demo1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- loginpage.demo1 -->
+      <class name="loginpage.practise">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- loginpage.practise -->
+    </classes>
+  </test> <!-- day1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [FirstSuite]] -->
